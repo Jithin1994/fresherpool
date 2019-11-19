@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <header>
-      <span>Vue.js PWA</span>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/about">About</router-link></li>
     </header>
     <main>
       <img src="./assets/logo.png" alt="Vue.js PWA">
